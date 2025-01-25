@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrico Fermi Biography</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Change font family for the entire page */
+        body {
+            font-family: 'Roboto', sans-serif; /* You can change this to any font you like */
+        }
+
+        
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        
+        .card {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .card-body {
+            flex-grow: 1; /* Ensures the content fills the available space */
+        }
+        /* Navbar Styles */
+        .navbar {
+            background-color: #111;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .navbar-brand {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+    
+
+        .nav-link {
+            font-size: 1.1rem;
+            color: #cecece;
+            padding: 0.5rem 1.2rem;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #ffffff;
+        }
+
+        .nav-link.active {
+            font-weight: bold;
+        }
+
+     
+
+        .navbar-nav.ms-auto {
+            margin-left: auto;
+        }
+    </style>
+</head>
+<body class="bg-light text-dark">
+
+ <!-- Navbar Section -->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container-fluid">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+            <span class="logo">BIOGRAPHY.</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://en.wikipedia.org/wiki/List_of_Nobel_laureates_in_Physics">Discover More</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+
+    <!-- Hero Section with Image -->
+    <header class="header text-center py-5">
+        <div class="hero-image">
+            <img src="images/enrico 1.jpg" class="img-fluid" alt="Enrico Fermi">
+        </div>
+        <div class="hero-text position-absolute top-50 start-50 translate-middle">
+            <h1 class="display-3 text-white">Enrico Fermi</h1>
+            <p class="lead text-white-50">The Father of Nuclear Physics</p>
+        </div>
+    </header>
+
+    <!-- About Section with Left Text and Right Image -->
+    <section class="bio-section py-5" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left Column (Text) -->
+                <div class="col-md-6 text-start">
+                    <h2 class="mb-4">About Enrico Fermi</h2>
+                    <p class="text-justify mb-4">
+                        Enrico Fermi (1901-1954) was an Italian-American physicist, known for his work on the development of the first nuclear reactor and his contributions to the development of quantum theory. His work on the Fermi paradox and nuclear energy has earned him the title "The Father of Nuclear Physics."
+                    </p>
+                    <p class="text-justify mb-4">
+                        Fermi's pioneering work in particle physics and his discovery of nuclear reactions initiated the development of atomic energy. He was also instrumental in the creation of the first nuclear reactor, Chicago Pile-1, which played a pivotal role in the Manhattan Project.
+                    </p>
+                    <p class="text-justify mb-4">
+                        Awarded the Nobel Prize in Physics in 1938 for his work on induced radioactivity, Fermi's intellectual legacy continues to influence modern physics. His work on nuclear fission and the theory of weak interactions remains a cornerstone of particle physics today.
+                    </p>
+
+                    <a href="https://en.wikipedia.org/wiki/Enrico_Fermi">
+                        <button class="btn btn-danger w-100 mt-4">Explore More</button>
+                    </a>
+                </div>
+
+                <!-- Right Column (Image) -->
+                <div class="col-md-6">
+                    <img src="images/enriiiiiicoooooooooooooooooooooooooo.jpg" class="img-fluid rounded shadow-lg" alt="Enrico Fermi">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Cards Section -->
+    <section class="books-section py-5 bg-light" id="books">
+        <div class="container">
+            <h2 class="text-center mb-4 " style="font-weight: bolder;">Books about Enrico Fermi</h2>
+            <div class="row">
+                <!-- Book Card 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-lg h-100 border-light rounded">
+                        <img src="images/book21.jpg" class="card-img-top" alt="Book 1 Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Enrico Fermi: His Work and Legacy</h5>
+                            <p class="card-text">A comprehensive biography by various authors about the life and work of Enrico Fermi, detailing his scientific discoveries and his role in the atomic age.</p>
+                            <a href="https://www.amazon.com/Enrico-Fermi-%C2%ABHis-work-legacy%C2%BB/dp/8874380151" class="btn btn-danger w-100">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Book Card 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-lg h-100 border-light rounded">
+                        <img src="images/book22.jpg" class="card-img-top" alt="Book 2 Image">
+                        <div class="card-body">
+                            <h5 class="card-title">The Life and Times of Enrico Fermi</h5>
+                            <p class="card-text">A biography that dives into Fermi’s contributions to nuclear physics, his work with the Manhattan Project, and his lasting influence in science and his role in the atomic age.</p>
+                            <a href="https://www.amazon.com/Last-Man-Who-Knew-Everything-audiobook/dp/B077F2ZPVK/ref=sr_1_1?s=books&sr=1-1" class="btn btn-danger w-100">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Book Card 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-lg h-100 border-light rounded">
+                        <img src="images/book23.jpg" class="card-img-top" alt="Book 3 Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Fermi’s Paradox</h5>
+                            <p class="card-text">A detailed exploration of the Fermi paradox and its implications on the search for extraterrestrial life, written by a leading scientist in the field, Fermi’s contributions to nuclear physics.</p>
+                            <a href="https://www.amazon.com/Fermis-Paradox-Implications-Electronic-Cosmos/dp/1490783676" class="btn btn-danger w-100">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="quote-section bg-light py-5">
+        <div class="container text-center">
+            <blockquote class="blockquote">
+                <p class="fs-4">
+                    "It is not the business of physics to explain the world. It is the business of physics to predict the world."
+                </p>
+                <footer class="blockquote-footer">
+                    <strong>Enrico Fermi</strong>
+                </footer>
+            </blockquote>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Nobel Prize in Science. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <p class="footer-text">For more information, visit the official Nobel Prize website.</p>
+            </div>
+        </div>
+      </footer>
+      
+
+    <!-- Bootstrap JS (Optional, for navbar toggler) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
